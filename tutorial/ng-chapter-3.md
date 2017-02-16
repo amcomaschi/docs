@@ -264,7 +264,7 @@ As one final change, because this template is getting to be a bit complex, letâ€
 Finally, in `app/app.component.ts`, replace the existing `template` property with the new `templateUrl` property shown below:
 
 ``` TypeScript
-templateUrl: "pages/login/login.html"
+templateUrl: "app/pages/login/login.html"
 ```
 
 In case you got lost during this section, hereâ€™s a copy-and-paste friendly of the `app/app.component.ts` file you should have at this point:
@@ -276,7 +276,7 @@ import { User } from "./shared/user/user";
 
 @Component({
   selector: "my-app",
-  templateUrl: "pages/login/login.html",
+  templateUrl: "app/pages/login/login.html",
   styleUrls: ["pages/login/login-common.css", "pages/login/login.css"]
 })
 export class AppComponent {
